@@ -8,7 +8,9 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
+    #[\Override]
     protected string $view = 'activity-comments-filament::overview';
 
+    #[\Override]
     protected static ?string $title = 'Activity and Comments';
 }
