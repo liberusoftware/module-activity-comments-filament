@@ -10,15 +10,5 @@ final class Overview extends Page
 {
     protected string $view = 'activity-comments-filament::overview';
 
-    protected static ?string $slug = 'overview-activity-comments';
-
-    public static function getNavigationLabel(): string
-    {
-        return __('filament.pages.activity_comments');
-    }
-
-    public function getTitle(): string
-    {
-        return __('filament.pages.activity_comments');
-    }
+    protected static ?string $title = 'Activity and Comments';
 }
